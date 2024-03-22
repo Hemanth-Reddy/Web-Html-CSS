@@ -1,0 +1,138 @@
+body {
+    background-color:#edefee;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 1000;
+
+}
+
+header {
+    margin:1rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(46, 41, 41);
+    color: #edefee;
+    padding: 1rem;
+    border-radius: 20px;
+    /* display: flex; // Make the ul a flex container 
+    justify-content: space-between; */
+}
+
+nav li {
+    display: inline-block;
+    padding-left:1rem;
+}
+
+a {
+    color: #edefee;
+    text-decoration: none;
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration:none;
+    color:black
+}
+
+section {
+    display: flex;
+} 
+
+article {
+    flex:1;
+    margin: 1rem;
+}
+
+.banner {
+    background-image: url(logos/Chicken.avif);
+    background-size: cover;
+    background-position: center;
+    color:#edefee;
+    border-radius: 20px;
+    padding:0.5rem;
+    /* transition: transform 0.3s ease; */
+}
+
+/* .banner:hover {
+    transform: scale(1.005);
+} */
+
+.banner p{
+    width: 60%;
+}
+
+.img-fluid {
+    width: auto;
+    height: 100px;
+    padding-left: 1rem;
+}
+
+.centered-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding:1rem;
+    margin-left: 1rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.info:hover {
+    transform: scale(1.1);
+}
+
+.booktable {
+    background-image: url(logos/tablebooking.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color:#edefee;
+    border-radius: 20px;
+    padding:0.5rem;
+}
+
+.booktable p {
+    width: 60%;
+}
+
+footer {
+    display:flex;
+}
+
+footer div{
+    flex:1;
+    /* display: flex;
+    justify-content: flex-end; /* Align content within div to the right 
+    align-items: center;  */
+}
+
+.copyright {
+    border-top: solid silver;
+    text-align: right;
+    font-size: 0.75rem;
+    font-weight: 1000;
+}
